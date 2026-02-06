@@ -7,6 +7,7 @@ Current functionalities:
 - Create new event with timeline sheet (instead of having to click again to select the type of sheet)
 - More to come!
 
+![Screenshot](https://github.com/IntonationStudio/FmodHotkeys/blob/main/FmodScripts.png)
 
 Instruction from Fmod documentation 
 Script files are automatically evaluated every time you load a project. FMOD Studio reads scripts from any files with the .js extension in the following locations:
