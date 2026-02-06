@@ -1,7 +1,8 @@
 # FmodHotkeys
-Some Fmod hotkeys I find useful
 
-Current functionalities: 
+Please feel free to request new functionalities or suggest fixes to help me improve this project
+
+##Current functionalities: 
 - Create loop regions based on selection
 - Create Magnet regions based on selection
 - Create new event with timeline sheet (instead of having to click again to select the type of sheet)
@@ -9,7 +10,7 @@ Current functionalities:
 
 ![Screenshot](https://github.com/IntonationStudio/FmodHotkeys/blob/main/FmodScripts.png)
 
-Instruction from Fmod documentation 
+##Instruction from Fmod documentation 
 Script files are automatically evaluated every time you load a project. FMOD Studio reads scripts from any files with the .js extension in the following locations:
 
 System scripts directory:
@@ -28,7 +29,6 @@ Project scripts directory:
 After adding or altering a script in one of these directories, you can select "Scripts > Reload" to use the newly updated script.
 
 
-Bonus script: 
+##Bonus script: 
 I also made an identifier script to help me understand Fmod better so I can add more functionalities. All the info is dumped into the console window
 
-Please feel free to request new functionalities or suggest fixes to help me improve this project
