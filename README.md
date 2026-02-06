@@ -29,6 +29,6 @@ Project scripts directory:
 After adding or altering a script in one of these directories, you can select "Scripts > Reload" to use the newly updated script.
 
 
-## Bonus script: (H2)
+## Bonus script:
 I also made an identifier script to help me understand Fmod better so I can add more functionalities. All the info is dumped into the console window
 
