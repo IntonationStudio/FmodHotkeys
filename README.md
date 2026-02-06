@@ -2,7 +2,7 @@
 
 Please feel free to request new functionalities or suggest fixes to help me improve this project
 
-##Current functionalities: (H2)
+#Current functionalities: 
 - Create loop regions based on selection
 - Create Magnet regions based on selection
 - Create new event with timeline sheet (instead of having to click again to select the type of sheet)
@@ -10,7 +10,7 @@ Please feel free to request new functionalities or suggest fixes to help me impr
 
 ![Screenshot](https://github.com/IntonationStudio/FmodHotkeys/blob/main/FmodScripts.png)
 
-##Instruction from Fmod documentation (H2)
+##Instruction from Fmod documentation 
 Script files are automatically evaluated every time you load a project. FMOD Studio reads scripts from any files with the .js extension in the following locations:
 
 System scripts directory:
