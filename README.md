@@ -30,3 +30,5 @@ After adding or altering a script in one of these directories, you can select "S
 
 Bonus script: 
 I also made an identifier script to help me understand Fmod better so I can add more functionalities. All the info is dumped into the console window
+
+Please feel free to request new functionalities or suggest fixes to help me improve this project
