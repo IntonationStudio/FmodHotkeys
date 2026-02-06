@@ -5,6 +5,8 @@ Please feel free to request new functionalities or suggest fixes to help me impr
 ## Current functionalities: 
 - Create loop regions based on selection
 - Create Magnet regions based on selection
+- Create Destination regions based on selection
+- Create destination marker based on selection
 - Create new event with timeline sheet (instead of having to click again to select the type of sheet)
 - More to come!
 
