@@ -13,18 +13,18 @@ Please feel free to request new functionalities or suggest fixes to help me impr
 ## Instruction from Fmod documentation 
 Script files are automatically evaluated every time you load a project. FMOD Studio reads scripts from any files with the .js extension in the following locations:
 
-System scripts directory:
-Windows: %localappdata%/FMOD Studio/Scripts
-Mac: ~/Library/Preferences/FMOD Studio/Scripts
-Linux: ~/.config/fmod-studio/Scripts
+### System scripts directory:
+- Windows: %localappdata%/FMOD Studio/Scripts
+- Mac: ~/Library/Preferences/FMOD Studio/Scripts
+- Linux: ~/.config/fmod-studio/Scripts
 
-Built-in scripts directory:
-Windows: %fmod_install_directory%/Scripts
-Mac: %fmod_bundle%/Scripts
-Linux: %fmod_install_directory%/Scripts
+### Built-in scripts directory:
+- Windows: %fmod_install_directory%/Scripts
+- Mac: %fmod_bundle%/Scripts
+- Linux: %fmod_install_directory%/Scripts
 
-Project scripts directory:
-%project_root_directory%/Scripts
+### Project scripts directory:
+- %project_root_directory%/Scripts
 
 After adding or altering a script in one of these directories, you can select "Scripts > Reload" to use the newly updated script.
 
