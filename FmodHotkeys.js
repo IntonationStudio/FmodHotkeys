@@ -145,3 +145,15 @@ studio.menu.addMenuItem({
         });
     }
 });
+
+//Function 7: Refresh Modified Assets
+studio.menu.addMenuItem({
+    name: "Refresh Modified Assets",
+    keySequence: "Shift+Alt+R",
+    execute: function() {
+        var window = studio.window.browserCurrent();
+        studio.window.triggerAction("RefreshModifiedAssets");
+        alert("Assets refreshed!")
+    }
+});
+

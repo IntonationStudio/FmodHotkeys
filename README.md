@@ -6,6 +6,7 @@ Please feel free to request new functionalities or suggest fixes to help me impr
 - Create loop regions based on selection
 - Create Magnet regions based on selection
 - Create new event with timeline sheet (instead of having to click again to select the type of sheet)
+- Refresh Modified Assets 
 - More to come!
 
 ![Screenshot](https://github.com/IntonationStudio/FmodHotkeys/blob/main/FmodScripts.png)
