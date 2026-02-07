@@ -9,7 +9,7 @@ Please feel free to request new functionalities or suggest fixes to help me impr
 - Refresh Modified Assets 
 - More to come!
 
-![Screenshot](https://github.com/IntonationStudio/FmodHotkeys/blob/main/FmodScripts.png)
+![Screenshot](https://github.com/IntonationStudio/FmodHotkeys/blob/main/FmodHotKeyShowcase.png)
 
 ## Instruction from Fmod documentation 
 Script files are automatically evaluated every time you load a project. FMOD Studio reads scripts from any files with the .js extension in the following locations:
