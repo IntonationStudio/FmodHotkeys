@@ -1,4 +1,4 @@
-# FmodHotkeys
+# FMODHotkeys
 
 Please feel free to request new functionalities or suggest fixes to help me improve this project
 
@@ -11,7 +11,7 @@ Please feel free to request new functionalities or suggest fixes to help me impr
 
 ![Screenshot](https://github.com/IntonationStudio/FmodHotkeys/blob/main/FmodHotKeyShowcase.png)
 
-## Instruction from Fmod documentation 
+## Instruction from FMOD documentation 
 Script files are automatically evaluated every time you load a project. FMOD Studio reads scripts from any files with the .js extension in the following locations:
 
 ### System scripts directory:
