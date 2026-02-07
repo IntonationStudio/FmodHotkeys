@@ -8,7 +8,7 @@
 studio.menu.addMenuItem({
     name: "FMOD Hotkeys\\Add Loop Region to selections",
     keySequence: "Shift+L",
-    isEnabled: function() { return studio.window.editorSelection().length && studio.window.browserCurrent().length; },
+    isEnabled: function() { var event = studio.window.browserCurrent(); return event && event.isOfExactType("Event"); },
     execute: function() {
         // Retrieve the current selected event
         var event = studio.window.browserCurrent();
@@ -34,7 +34,7 @@ studio.menu.addMenuItem({
 studio.menu.addMenuItem({
     name: "FMOD Hotkeys\\Add Magnet Region to selections",
     keySequence: "Shift+M",
-    isEnabled: function() { return studio.window.editorSelection().length && studio.window.browserCurrent().length; },
+    isEnabled: function() { var event = studio.window.browserCurrent(); return event && event.isOfExactType("Event"); },
     execute: function() {
         // Retrieve the current selected event
         var event = studio.window.browserCurrent();
@@ -72,7 +72,7 @@ studio.menu.addMenuItem({
 studio.menu.addMenuItem({
     name: "FMOD Hotkeys\\Add Transition Region to selections",
     keySequence: "Shift+T",
-    isEnabled: function() { return studio.window.editorSelection().length && studio.window.browserCurrent().length; },
+    isEnabled: function() { var event = studio.window.browserCurrent(); return event && event.isOfExactType("Event"); },
     execute: function() {
         // Retrieve the current selected event
         var event = studio.window.browserCurrent();
@@ -98,7 +98,7 @@ studio.menu.addMenuItem({
 studio.menu.addMenuItem({
     name: "FMOD Hotkeys\\Add Destination Region to selections",
     keySequence: "Shift+D",
-    isEnabled: function() { return studio.window.editorSelection().length && studio.window.browserCurrent().length; },
+    isEnabled: function() { var event = studio.window.browserCurrent(); return event && event.isOfExactType("Event"); },
     execute: function() {
         // Retrieve the current selected event
         var event = studio.window.browserCurrent();
@@ -125,7 +125,7 @@ studio.menu.addMenuItem({
 studio.menu.addMenuItem({
     name: "FMOD Hotkeys\\Add Destination Marker to start of selections",
     keySequence: "Ctrl+Shift+D",
-    isEnabled: function() { return studio.window.editorSelection().length && studio.window.browserCurrent().length; },
+    isEnabled: function() { var event = studio.window.browserCurrent(); return event && event.isOfExactType("Event"); },
     execute: function() {
         // Retrieve the current selected event
         var event = studio.window.browserCurrent();
@@ -156,4 +156,3 @@ studio.menu.addMenuItem({
         alert("Assets refreshed!")
     }
 });
-
