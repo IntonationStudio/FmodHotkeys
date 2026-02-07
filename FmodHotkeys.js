@@ -6,7 +6,7 @@
 
    //Function 1: Add Loop Region to all currently selected Event
 studio.menu.addMenuItem({
-    name: "Add Loop Region to selections",
+    name: "FMOD Hotkeys\\Add Loop Region to selections",
     keySequence: "Shift+L",
     isEnabled: function() { return studio.window.editorSelection().length && studio.window.browserCurrent().length; },
     execute: function() {
@@ -32,7 +32,7 @@ studio.menu.addMenuItem({
 
 //Function 2: Add Magnet Region to all currently selected Event
 studio.menu.addMenuItem({
-    name: "Add Magnet Region to selections",
+    name: "FMOD Hotkeys\\Add Magnet Region to selections",
     keySequence: "Shift+M",
     isEnabled: function() { return studio.window.editorSelection().length && studio.window.browserCurrent().length; },
     execute: function() {
@@ -59,7 +59,7 @@ studio.menu.addMenuItem({
 
 //Function 3: Add new event with a timeline sheet
 studio.menu.addMenuItem({
-    name: "Add new event with a timeline sheet",
+    name: "FMOD Hotkeys\\Add new event with a timeline sheet",
     keySequence: "Ctrl+Alt+T",
     execute: function() {
         var event = studio.project.create("Event");
@@ -70,7 +70,7 @@ studio.menu.addMenuItem({
 
 //Function 4: Add Transition Region to selections
 studio.menu.addMenuItem({
-    name: "Add Transition Region to selections",
+    name: "FMOD Hotkeys\\Add Transition Region to selections",
     keySequence: "Shift+T",
     isEnabled: function() { return studio.window.editorSelection().length && studio.window.browserCurrent().length; },
     execute: function() {
@@ -96,7 +96,7 @@ studio.menu.addMenuItem({
 
 //Function 5: Add Destination Region to selections
 studio.menu.addMenuItem({
-    name: "Add Destination Region to selections",
+    name: "FMOD Hotkeys\\Add Destination Region to selections",
     keySequence: "Shift+D",
     isEnabled: function() { return studio.window.editorSelection().length && studio.window.browserCurrent().length; },
     execute: function() {
@@ -123,7 +123,7 @@ studio.menu.addMenuItem({
 
 //Function 6: Add Destination Marker to selections
 studio.menu.addMenuItem({
-    name: "Add Destination Marker to start of selections",
+    name: "FMOD Hotkeys\\Add Destination Marker to start of selections",
     keySequence: "Ctrl+Shift+D",
     isEnabled: function() { return studio.window.editorSelection().length && studio.window.browserCurrent().length; },
     execute: function() {
@@ -148,7 +148,7 @@ studio.menu.addMenuItem({
 
 //Function 7: Refresh Modified Assets
 studio.menu.addMenuItem({
-    name: "Refresh Modified Assets",
+    name: "FMOD Hotkeys\\Refresh Modified Assets",
     keySequence: "Shift+Alt+R",
     execute: function() {
         var window = studio.window.browserCurrent();
