@@ -1,4 +1,4 @@
-# FMODHotkeys
+# FMOD Hotkeys
 
 Please feel free to request new functionalities or suggest fixes to help me improve this project
 
